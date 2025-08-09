@@ -1,23 +1,23 @@
 # 🍔 Food Delivery MVP
 
-A minimal MERN stack food delivery application with menu browsing, ordering, and "My Orders" history.
+A minimal **MERN stack** food delivery application that allows users to browse the menu, place orders, and track their order history.  
+Built with **React, Node.js, Express, and MongoDB**.
 
 ---
 
 ## 📸 Screenshots
 
-![Menu Page](https://github.com/ThiriloseJonesNithish-R/food-delivery-mvp/blob/eaf0ca466f8b59a6d8b885364633b6eeb8f87f56/Screenshots/Menu.png)
-
+![Menu Page](https://github.com/ThiriloseJonesNithish-R/food-delivery-mvp/blob/eaf0ca466f8b59a6d8b885364633b6eeb8f87f56/Screenshots/Menu.png)  
 ![Order History](https://github.com/ThiriloseJonesNithish-R/food-delivery-mvp/blob/eaf0ca466f8b59a6d8b885364633b6eeb8f87f56/Screenshots/Orders.png)
 
 ---
 
 ## 🚀 Features
-- 📜 View food menu
-- 🛒 Place orders
-- 📦 View your order history (newest first)
-- 🔐 User authentication (JWT-based)
-- 🎨 Minimal, clean UI
+- 📜 View the food menu
+- 🛒 Add items to cart & place orders
+- 📦 View your order history (sorted newest first)
+- 🔐 Secure authentication with JWT
+- 🎨 Minimal, responsive UI
 
 ---
 
@@ -41,12 +41,12 @@ FOOD DELIVERY MVP
 │   └── package.json      # Backend dependencies
 │
 └── food-delivery-frontend/
-    ├── src/
-    │   ├── components/   # React components (Menu, Cart, etc.)
-    │   ├── App.jsx       # Main app file
-    │   └── main.jsx      # React entry point
-    ├── .env              # Frontend env vars
-    └── package.json      # Frontend dependencies
+├── src/
+│   ├── components/   # React components (Menu, Cart, etc.)
+│   ├── App.jsx       # Main app file
+│   └── main.jsx      # React entry point
+├── .env              # Frontend env vars
+└── package.json      # Frontend dependencies
 
 ````
 
@@ -63,11 +63,11 @@ cd food-delivery-mvp
 ### 2️⃣ Backend Setup
 
 ```bash
-cd backend
+cd food-delivery-backend
 npm install
 ```
 
-* Create a `.env` file inside `backend/` with:
+Create a `.env` file inside `food-delivery-backend/` with:
 
 ```env
 PORT=5000
@@ -75,7 +75,7 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 ```
 
-* Start the backend:
+Run the backend:
 
 ```bash
 npm start
@@ -84,11 +84,11 @@ npm start
 ### 3️⃣ Frontend Setup
 
 ```bash
-cd ../frontend
+cd ../food-delivery-frontend
 npm install
 ```
 
-* Start the frontend:
+Run the frontend:
 
 ```bash
 npm start
@@ -105,3 +105,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## ⭐ Contribute
 
 If you like this project, consider giving it a ⭐ on GitHub!
+Do you want me to make that?
+```
