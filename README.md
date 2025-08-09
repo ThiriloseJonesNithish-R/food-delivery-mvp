@@ -6,7 +6,6 @@ A minimal MERN stack food delivery application with menu browsing, ordering, and
 
 ## 📸 Screenshots
 
-*(Add screenshots here)*
 ![Menu Page](https://github.com/ThiriloseJonesNithish-R/food-delivery-mvp/blob/eaf0ca466f8b59a6d8b885364633b6eeb8f87f56/Screenshots/Menu.png)
 
 ![Order History](https://github.com/ThiriloseJonesNithish-R/food-delivery-mvp/blob/eaf0ca466f8b59a6d8b885364633b6eeb8f87f56/Screenshots/Orders.png)
