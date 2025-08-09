@@ -105,5 +105,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## ⭐ Contribute
 
 If you like this project, consider giving it a ⭐ on GitHub!
-Do you want me to make that?
-```
